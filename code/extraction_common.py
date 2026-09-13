@@ -182,6 +182,47 @@ def deepseek_transport(
     return send
 
 
+def deepseek_prose_transport(
+    *,
+    api_key: str,
+    model: str = "deepseek-chat",
+    endpoint: str = "https://api.deepseek.com/chat/completions",
+    timeout: int = 120,
+) -> Transport:
+    """Return a DeepSeek transport for plain-text explanation responses."""
+    def send(body: dict[str, Any]) -> ProviderResponse:
+        request_body = dict(body)
+        request_body.setdefault("model", model)
+        request_body.setdefault("temperature", 0)
+        request = urllib.request.Request(
+            endpoint,
+            data=json.dumps(request_body).encode("utf-8"),
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                raw = json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            raise ProviderError(f"DeepSeek request failed: HTTP {exc.code}") from exc
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            raise ProviderError(f"DeepSeek request failed: {type(exc).__name__}") from exc
+        raw = _json_from_response(raw)
+        try:
+            content = raw["choices"][0]["message"]["content"]
+            if not isinstance(content, str):
+                raise TypeError("content is not text")
+            usage = raw.get("usage", {})
+            return ProviderResponse(
+                payload={"text": content},
+                input_tokens=usage.get("prompt_tokens"),
+                output_tokens=usage.get("completion_tokens"),
+            )
+        except (KeyError, IndexError, TypeError) as exc:
+            raise ProviderError("DeepSeek response did not contain prose text") from exc
+    return send
+
+
 def gemini_transport(
     *,
     api_key: str,
