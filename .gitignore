@@ -34,6 +34,7 @@ corpus/
 *.tmp
 *.temp
 log.txt
+cache/
 
 # Secrets
 .env
