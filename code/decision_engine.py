@@ -196,8 +196,12 @@ def generate_candidate_plans(
 
     accepted = set(accepted_payment_methods)
     safe_now = amount_safe_to_pay(baseline_curve, requested_amount, minimum_balance)
+    # The payment plan is checked against the complete supplied forecast. Find
+    # the first date whose suffix remains safe through the forecast horizon,
+    # then separately require that date to meet the request deadline below.
+    forecast_end = max(baseline_curve)
     earliest_full = earliest_date_for_full_payment(
-        baseline_curve, requested_amount, minimum_balance, desired_completion_date
+        baseline_curve, requested_amount, minimum_balance, forecast_end
     )
     candidates: list[CandidatePlan] = []
 

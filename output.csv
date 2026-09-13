@@ -1,0 +1,251 @@
+request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
+request_26,15656000,affordable_now,full_payment,2025-08-03:15656000,2025-08-03,none,Pay the full request today. The forecast reserves 10374000 for Residential rent payment on 2025-10-03.
+request_27,6670,affordable_now,full_payment,2026-07-05:6670,2026-07-05,none,Pay the full request today. The forecast reserves 8360 for Monthly rent on 2026-09-04.
+request_28,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 358.6 for Shared housing rent on 2024-09-01.
+request_29,47593.45,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 5170 for School fee payment on 2026-01-08.
+request_30,730.91,affordable_with_plan,installments,2026-04-06:268.74|2026-05-06:268.74|2026-06-05:268.74,,stop:event_2694,Use the supplied installment schedule totaling 806.22 after these permitted changes: stop:event_2694. The forecast reserves 396 for Landlord standing order on 2026-07-03.
+request_31,3685155.15,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6080000 for Residential rent payment on 2024-11-04.
+request_32,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 15664 for Monthly rent on 2025-05-01.
+request_33,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 41900 for Apartment rent transfer on 2026-04-02.
+request_34,125346.75,affordable_with_plan,full_payment,2024-12-04:129400,,stop:event_3085,Pay the full request today after these permitted changes: stop:event_3085. The forecast reserves 51200 for Monthly rent on 2025-03-03.
+request_35,1781.13,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 37000 for Shared housing rent on 2026-01-04.
+request_36,1039.66,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 260 for Home association fee on 2026-09-02.
+request_37,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6802000 for Monthly rent on 2024-06-02.
+request_38,298.4,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 68 for Property maintenance contribution on 2025-11-04.
+request_39,160691.73,affordable_later,wait,2026-04-15:208600,2026-04-15,none,Wait and pay the full request on 2026-04-15. The forecast reserves 78000 for Residential rent payment on 2026-06-04.
+request_40,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 581.9 for Shared housing rent on 2024-09-01.
+request_41,13486551.69,affordable_later,wait,2025-11-15:38760000,2025-11-15,none,Wait and pay the full request on 2025-11-15. The forecast reserves 9481000 for Residential rent payment on 2026-01-02.
+request_42,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 40200 for Apartment rent transfer on 2026-04-03.
+request_43,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 8911000 for Monthly rent on 2024-12-04.
+request_44,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 30200 for Apartment rent transfer on 2025-05-01.
+request_45,7003241.86,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 1805000 for Building maintenance payment on 2026-10-03.
+request_46,49450,affordable_with_plan,installments,2024-12-03:25714|2024-12-31:25714,2024-12-03,none,Use the supplied installment schedule totaling 51428. The forecast reserves 33800 for Shared housing rent on 2025-03-03.
+request_47,11440871.72,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 12065000 for Shared housing rent on 2025-07-04.
+request_48,45700,affordable_now,full_payment,2026-07-25:45700,2026-07-25,none,Pay the full request today. The forecast reserves 25200 for Apartment rent transfer on 2026-10-01.
+request_49,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 9747000 for Shared housing rent on 2024-06-02.
+request_50,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 38800 for Monthly rent on 2025-11-03.
+request_51,2191000,affordable_now,full_payment,2026-01-03:2191000,2026-01-03,none,Pay the full request today. The forecast reserves 2945000 for Residential rent payment on 2026-03-04.
+request_52,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 21100 for Monthly rent on 2024-09-01.
+request_53,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 774 for Residential rent payment on 2026-02-02.
+request_54,10951.16,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3630 for Home association fee on 2026-09-04.
+request_55,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 54400 for Apartment rent transfer on 2026-09-04.
+request_56,881.56,affordable_with_plan,installments,2025-02-03:458.42|2025-03-03:458.42,2025-02-03,none,Use the supplied installment schedule totaling 916.84. The forecast reserves 212 for Home association fee on 2025-05-02.
+request_57,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 15004 for Monthly rent on 2026-07-02.
+request_58,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7676000 for Landlord standing order on 2025-03-03.
+request_59,140600,affordable_with_plan,installments,2025-05-07:48741.33|2025-06-04:48741.33|2025-07-02:48741.33,2025-05-04,none,Use the supplied installment schedule totaling 146223.99. The forecast reserves 53800 for Monthly rent on 2025-07-04.
+request_60,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 122.4 for Apartment rent transfer on 2026-04-01.
+request_61,29062,affordable_with_plan,installments,2024-03-17:10074.83|2024-04-17:10074.83|2024-05-18:10074.83,2024-03-03,none,Use the supplied installment schedule totaling 30224.49. The forecast reserves 11792 for Landlord standing order on 2024-05-02.
+request_62,404.23,affordable_now,full_payment,2025-08-05:404.23,2025-08-05,none,Pay the full request today. The forecast reserves 530.4 for Monthly rent on 2025-11-03.
+request_63,62103.01,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 50000 for Monthly rent on 2026-10-04.
+request_64,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 79679.26 for Large grocery tax invoice on 2024-06-10.
+request_65,10689.8,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 2519 for Home association fee on 2026-02-03.
+request_66,22200,affordable_now,full_payment,2026-04-03:22200,2026-04-03,none,Pay the full request today. The forecast reserves 26300 for Apartment rent transfer on 2026-06-03.
+request_67,448.05,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 514.8 for Monthly rent on 2024-12-04.
+request_68,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 750 for Apartment rent transfer on 2025-05-01.
+request_69,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 388.3 for Monthly rent on 2026-04-02.
+request_70,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 66100 for Landlord standing order on 2025-03-03.
+request_71,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3648000 for Apartment rent transfer on 2025-07-04.
+request_72,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 4312 for Apartment rent transfer on 2026-10-01.
+request_73,12231.85,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 37300 for Residential rent payment on 2023-04-02.
+request_74,5010,affordable_now,full_payment,2025-08-04:5010,2025-08-04,none,Pay the full request today. The forecast reserves 7590 for Shared housing rent on 2025-10-03.
+request_75,28270,affordable_with_plan,installments,2026-04-09:9800.27|2026-05-09:9800.27|2026-06-08:9800.27,2026-04-06,stop:event_6960,Use the supplied installment schedule totaling 29400.81 after these permitted changes: stop:event_6960. The forecast reserves 15642 for Shared housing rent on 2026-07-04.
+request_76,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 694.8 for Shared housing rent on 2024-09-01.
+request_77,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 25200 for Apartment rent transfer on 2026-02-02.
+request_78,33419.37,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 28200 for Shared housing rent on 2025-12-03.
+request_79,848.21,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 386.1 for Monthly rent on 2024-11-04.
+request_80,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 52000 for Residential rent payment on 2025-05-01.
+request_81,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 926.4 for Apartment rent transfer on 2026-09-02.
+request_82,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 405.6 for Shared housing rent on 2025-03-03.
+request_83,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6700 for Home repair reserve on 2025-08-05.
+request_84,11617.26,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 26200 for Shared housing rent on 2026-07-01.
+request_85,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 2527000 for Apartment rent transfer on 2024-06-02.
+request_86,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 38800 for Residential rent payment on 2025-10-03.
+request_87,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 74900 for Landlord standing order on 2026-04-04.
+request_88,5360.91,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 9614 for Monthly rent on 2024-09-01.
+request_89,6063884.85,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3819000 for Shared housing rent on 2026-02-02.
+request_90,2560,affordable_now,full_payment,2026-07-06:2560,2026-07-06,none,Pay the full request today. The forecast reserves 3234 for Monthly rent on 2026-10-03.
+request_91,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 695.2 for Shared housing rent on 2024-11-04.
+request_92,34034,affordable_now,full_payment,2025-02-05:34034,2025-02-05,none,Pay the full request today. The forecast reserves 3762 for Home association fee on 2025-05-02.
+request_93,489.41,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 808.8 for Apartment rent transfer on 2026-07-02.
+request_94,533.99,affordable_with_plan,full_payment,2024-12-04:572,,stop:event_8765,Pay the full request today after these permitted changes: stop:event_8765. The forecast reserves 287.1 for Monthly rent on 2025-03-03.
+request_95,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 62900 for Residential rent payment on 2025-08-04.
+request_96,2231.91,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 21400 for Apartment rent transfer on 2026-04-01.
+request_97,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 11792 for Landlord standing order on 2024-06-02.
+request_98,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7986 for Residential rent payment on 2025-11-03.
+request_99,18062,affordable_now,full_payment,2026-07-04:18062,2026-07-04,none,Pay the full request today. The forecast reserves 5115 for Building maintenance payment on 2026-09-05.
+request_100,22795.22,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 12716 for Apartment rent transfer on 2024-09-01.
+request_101,143500,affordable_now,full_payment,2025-11-03:143500,2025-11-03,none,Pay the full request today. The forecast reserves 30050 for Property maintenance contribution on 2026-01-03.
+request_102,1716,affordable_with_plan,installments,2026-04-05:594.88|2026-05-05:594.88|2026-06-04:594.88,2026-04-05,stop:event_9456,Use the supplied installment schedule totaling 1784.64 after these permitted changes: stop:event_9456. The forecast reserves 345.4 for Shared housing rent on 2026-07-03.
+request_103,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 53400 for Monthly rent on 2024-12-04.
+request_104,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7920 for Apartment rent transfer on 2025-05-01.
+request_105,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 31200 for Apartment rent transfer on 2026-09-02.
+request_106,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 524.7 for Landlord standing order on 2025-03-03.
+request_107,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 693 for Landlord standing order on 2025-07-04.
+request_108,1407.44,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3366 for Building maintenance payment on 2026-10-02.
+request_109,910.97,affordable_with_plan,installments,2024-03-18:645.98|2024-04-18:645.98|2024-05-19:645.98,2024-03-15,none,Use the supplied installment schedule totaling 1937.94. The forecast reserves 718.3 for Apartment rent transfer on 2024-06-02.
+request_110,22352,affordable_with_plan,installments,2025-08-06:7748.69|2025-09-03:7748.69|2025-10-01:7748.69,2025-08-06,stop:event_10198,Use the supplied installment schedule totaling 23246.07 after these permitted changes: stop:event_10198. The forecast reserves 5148 for Monthly rent on 2025-11-03.
+request_111,16625000,affordable_now,full_payment,2026-04-03:16625000,2026-04-03,none,Pay the full request today. The forecast reserves 6422000 for Monthly rent on 2026-06-04.
+request_112,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 174.9 for Landlord standing order on 2024-09-01.
+request_113,1781.95,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 27300 for Landlord standing order on 2026-12-02.
+request_114,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 41700 for Landlord standing order on 2026-04-03.
+request_115,13945.13,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 13300 for Landlord standing order on 2024-12-04.
+request_116,12748.92,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 41100 for Residential rent payment on 2025-05-01.
+request_117,880,affordable_now,full_payment,2026-07-05:880,2026-07-05,none,Pay the full request today. The forecast reserves 102 for Home association fee on 2026-10-03.
+request_118,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 234.3 for Monthly rent on 2025-03-03.
+request_119,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 17050 for Property maintenance contribution on 2025-07-05.
+request_120,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7961000 for Shared housing rent on 2026-07-01.
+request_121,633.6,affordable_now,full_payment,2024-03-03:633.6,2024-03-03,none,Pay the full request today. The forecast reserves 351.6 for Landlord standing order on 2024-05-02.
+request_122,20558000,affordable_with_plan,installments,2025-08-05:7126773.33|2025-09-02:7126773.33|2025-09-30:7126773.33,2025-08-05,none,Use the supplied installment schedule totaling 21380319.99. The forecast reserves 3724000 for Monthly rent on 2025-11-03.
+request_123,3923051.13,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6004000 for Landlord standing order on 2026-04-04.
+request_124,685.38,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 779.9 for Apartment rent transfer on 2024-09-01.
+request_125,2507.97,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3520 for Landlord standing order on 2026-02-02.
+request_126,96536.6,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 43000 for Residential rent payment on 2026-09-03.
+request_127,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 14652 for Apartment rent transfer on 2024-12-04.
+request_128,25168,affordable_now,full_payment,2025-02-07:25168,2025-02-07,none,Pay the full request today. The forecast reserves 5368 for Home association fee on 2025-05-02.
+request_129,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 300 for Apartment rent transfer on 2026-07-02.
+request_130,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 600 for Residential rent payment on 2025-03-03.
+request_131,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 373.2 for Residential rent payment on 2025-07-04.
+request_132,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 321.6 for Landlord standing order on 2026-04-01.
+request_133,5432395.72,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3895000 for Residential rent payment on 2024-06-02.
+request_134,5915585.44,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7600000 for Apartment rent transfer on 2025-10-03.
+request_135,304.8,affordable_now,full_payment,2026-07-06:304.8,2026-07-06,none,Pay the full request today. The forecast reserves 94 for Home association fee on 2026-09-05.
+request_136,560.4,affordable_now,full_payment,2024-06-03:560.4,2024-06-03,none,Pay the full request today. The forecast reserves 357.6 for Monthly rent on 2024-09-01.
+request_137,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 37300 for Monthly rent on 2026-02-02.
+request_138,273.01,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 711.7 for Landlord standing order on 2026-07-03.
+request_139,1853.14,affordable_with_plan,installments,2024-09-07:802.88|2024-10-08:802.88|2024-11-08:802.88,2024-09-15,none,Use the supplied installment schedule totaling 2408.64. The forecast reserves 480 for Monthly rent on 2024-11-04.
+request_140,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 9966 for Apartment rent transfer on 2025-05-01.
+request_141,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 26800 for Apartment rent transfer on 2026-04-02.
+request_142,1263.6,affordable_now,full_payment,2024-12-05:1263.6,2024-12-05,none,Pay the full request today. The forecast reserves 564 for Residential rent payment on 2025-03-03.
+request_143,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3784 for Landlord standing order on 2025-08-04.
+request_144,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 220.8 for Shared housing rent on 2026-10-01.
+request_145,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 63900 for Landlord standing order on 2024-06-02.
+request_146,38399.18,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 14450 for Home repair reserve on 2025-10-04.
+request_147,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 464.2 for Apartment rent transfer on 2026-07-04.
+request_148,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 11066 for Shared housing rent on 2024-09-01.
+request_149,24500.53,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 16654 for Monthly rent on 2026-02-02.
+request_150,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 268.4 for Residential rent payment on 2026-04-03.
+request_151,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 12236000 for Landlord standing order on 2024-11-04.
+request_152,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3894 for Apartment rent transfer on 2025-05-01.
+request_153,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 528 for Residential rent payment on 2026-10-02.
+request_154,118.02,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 507.1 for Shared housing rent on 2025-03-03.
+request_155,97211.27,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 8190 for Course tuition on 2025-07-10.
+request_156,4641.16,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7568 for Apartment rent transfer on 2026-07-01.
+request_157,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6612000 for Monthly rent on 2024-06-02.
+request_158,242600,affordable_with_plan,installments,2025-08-07:84101.33|2025-09-04:84101.33|2025-10-02:84101.33,2025-08-07,none,Use the supplied installment schedule totaling 252303.99. The forecast reserves 67600 for Shared housing rent on 2025-11-03.
+request_159,4081.96,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 4114 for Apartment rent transfer on 2026-04-04.
+request_160,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 534.6 for Monthly rent on 2024-09-01.
+request_161,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 8265000 for Landlord standing order on 2026-01-02.
+request_162,5187508.8,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 2242000 for Home repair reserve on 2026-09-04.
+request_163,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6802000 for Residential rent payment on 2024-12-04.
+request_164,27018000,affordable_with_plan,installments,2025-02-11:9366240|2025-03-11:9366240|2025-04-08:9366240,2025-02-04,none,Use the supplied installment schedule totaling 28098720. The forecast reserves 4474500 for Home association fee on 2025-05-02.
+request_165,80600,affordable_now,full_payment,2026-04-06:80600,2026-04-06,none,Pay the full request today. The forecast reserves 30900 for Monthly rent on 2026-07-02.
+request_166,2907.6,affordable_with_plan,installments,2024-12-03:1007.97|2025-01-03:1007.97|2025-02-03:1007.97,2024-12-03,none,Use the supplied installment schedule totaling 3023.91. The forecast reserves 520.8 for Residential rent payment on 2025-03-03.
+request_167,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 15994 for Residential rent payment on 2025-07-04.
+request_168,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 38100 for Landlord standing order on 2026-04-01.
+request_169,36956.77,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 8932 for Monthly rent on 2024-06-02.
+request_170,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 10507000 for Landlord standing order on 2025-11-03.
+request_171,135.66,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 81 for Building maintenance payment on 2026-09-05.
+request_172,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 10340 for Landlord standing order on 2024-09-01.
+request_173,15298.38,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 34000 for Apartment rent transfer on 2026-02-02.
+request_174,1146.2,affordable_with_plan,installments,2026-04-04:397.35|2026-05-04:397.35|2026-06-03:397.35,2026-04-04,none,Use the supplied installment schedule totaling 1192.05. The forecast reserves 204.6 for Shared housing rent on 2026-07-03.
+request_175,1146.16,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 496.1 for Monthly rent on 2024-12-04.
+request_176,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 258.5 for Residential rent payment on 2025-05-01.
+request_177,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 490.8 for Apartment rent transfer on 2026-04-02.
+request_178,2938.1,affordable_with_plan,installments,2024-12-07:1018.54|2025-01-07:1018.54|2025-02-07:1018.54,2024-12-07,none,Use the supplied installment schedule totaling 3055.62. The forecast reserves 540.1 for Apartment rent transfer on 2025-03-03.
+request_179,2675644.51,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 13623000 for Apartment rent transfer on 2025-07-04.
+request_180,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 17400 for Monthly rent on 2026-10-01.
+request_181,420.68,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 877.2 for Landlord standing order on 2024-05-02.
+request_182,65714,affordable_now,full_payment,2025-08-05:65714,2025-08-05,none,Pay the full request today. The forecast reserves 5522 for Home repair reserve on 2025-10-04.
+request_183,14957672.2,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 5776000 for Shared housing rent on 2026-07-04.
+request_184,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 42300 for Monthly rent on 2024-09-01.
+request_185,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 451 for Apartment rent transfer on 2026-02-02.
+request_186,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7348 for Apartment rent transfer on 2026-04-03.
+request_187,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 34600 for Residential rent payment on 2024-12-04.
+request_188,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 451 for Monthly rent on 2025-05-01.
+request_189,488.4,affordable_now,full_payment,2026-07-04:488.4,2026-07-04,none,Pay the full request today. The forecast reserves 48 for Home association fee on 2026-09-03.
+request_190,464.5,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 728.2 for Residential rent payment on 2025-03-03.
+request_191,664.4,affordable_now,full_payment,2025-05-03:664.4,2025-05-03,none,Pay the full request today. The forecast reserves 74 for Home association fee on 2025-07-05.
+request_192,41.4,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 375.6 for Monthly rent on 2026-07-01.
+request_193,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 429 for Landlord standing order on 2024-06-02.
+request_194,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 40200 for Monthly rent on 2025-10-03.
+request_195,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 400.4 for Residential rent payment on 2026-04-04.
+request_196,762.3,affordable_now,full_payment,2024-06-03:762.3,2024-06-03,none,Pay the full request today. The forecast reserves 248.6 for Residential rent payment on 2024-09-01.
+request_197,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 11191000 for Landlord standing order on 2026-02-02.
+request_198,185800,affordable_now,full_payment,2026-07-07:185800,2026-07-07,none,Pay the full request today. The forecast reserves 17550 for Home association fee on 2026-10-04.
+request_199,23674000,affordable_with_plan,installments,2024-09-07:8206986.67|2024-10-08:8206986.67|2024-11-08:8206986.67,2024-09-04,none,Use the supplied installment schedule totaling 24620960.01. The forecast reserves 10070000 for Shared housing rent on 2024-11-04.
+request_200,21717000,affordable_now,full_payment,2025-02-06:21717000,2025-02-06,none,Pay the full request today. The forecast reserves 2346500 for Building maintenance payment on 2025-05-02.
+request_201,23997000,affordable_now,full_payment,2026-04-03:23997000,2026-04-03,none,Pay the full request today. The forecast reserves 6251000 for Apartment rent transfer on 2026-07-02.
+request_202,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 58300 for Residential rent payment on 2025-03-03.
+request_203,1442.1,affordable_with_plan,installments,2025-05-10:499.93|2025-06-07:499.93|2025-07-05:499.93,2025-05-07,none,Use the supplied installment schedule totaling 1499.79. The forecast reserves 800.8 for Shared housing rent on 2025-08-04.
+request_204,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 628.1 for Residential rent payment on 2026-04-01.
+request_205,9595154.73,affordable_with_plan,full_payment,2024-03-06:10621000,,stop:event_18861,Pay the full request today after these permitted changes: stop:event_18861. The forecast reserves 5871000 for Apartment rent transfer on 2024-06-02.
+request_206,1404.7,affordable_with_plan,installments,2025-08-03:486.96|2025-08-31:486.96|2025-09-28:486.96,2025-08-03,none,Use the supplied installment schedule totaling 1460.88. The forecast reserves 452.1 for Apartment rent transfer on 2025-10-03.
+request_207,10173.11,affordable_later,wait,2026-07-15:11830,2026-07-15,none,Wait and pay the full request on 2026-07-15. The forecast reserves 2453 for Property maintenance contribution on 2026-09-05.
+request_208,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3097000 for Monthly rent on 2024-09-01.
+request_209,4818.78,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 2409 for Property maintenance contribution on 2026-01-03.
+request_210,435.81,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 673.2 for Shared housing rent on 2026-07-03.
+request_211,370.65,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 460.9 for Apartment rent transfer on 2024-11-04.
+request_212,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7600000 for Apartment rent transfer on 2025-05-01.
+request_213,3362.4,affordable_with_plan,installments,2026-01-21:1165.63|2026-02-20:1165.63|2026-03-22:1165.63,2026-01-07,none,Use the supplied installment schedule totaling 3496.89. The forecast reserves 842.4 for Residential rent payment on 2026-04-02.
+request_214,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 69100 for Apartment rent transfer on 2025-03-03.
+request_215,29986,affordable_with_plan,installments,2025-05-09:10395.15|2025-06-06:10395.15|2025-07-04:10395.15,2025-05-06,none,Use the supplied installment schedule totaling 31185.45. The forecast reserves 6270 for Monthly rent on 2025-08-04.
+request_216,782.13,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 194 for Home repair reserve on 2026-09-02.
+request_217,14376.19,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 10472 for Landlord standing order on 2024-06-02.
+request_218,32002064.8,affordable_with_plan,installments,2025-08-07:21195893.33|2025-09-04:21195893.33|2025-10-02:21195893.33,2025-08-15,none,Use the supplied installment schedule totaling 63587679.99. The forecast reserves 3800000 for Building maintenance payment on 2025-11-04.
+request_219,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 650.1 for Residential rent payment on 2026-06-04.
+request_220,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 309.1 for Shared housing rent on 2024-09-01.
+request_221,50587.85,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 29300 for Landlord standing order on 2026-01-02.
+request_222,34078,affordable_now,full_payment,2026-01-05:34078,2026-01-05,none,Pay the full request today. The forecast reserves 8404 for Shared housing rent on 2026-04-03.
+request_223,898.7,affordable_now,full_payment,2024-09-07:898.7,2024-09-07,none,Pay the full request today. The forecast reserves 342.1 for Monthly rent on 2024-12-04.
+request_224,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 9310000 for Landlord standing order on 2025-05-01.
+request_225,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 6346000 for Residential rent payment on 2026-10-02.
+request_226,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 82200 for Shared housing rent on 2025-03-03.
+request_227,26601.08,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 10250 for Property maintenance contribution on 2025-07-05.
+request_228,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 7049000 for Shared housing rent on 2026-07-01.
+request_229,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 366.3 for Apartment rent transfer on 2024-06-02.
+request_230,1352.59,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 891 for Apartment rent transfer on 2025-11-03.
+request_231,35706,affordable_with_plan,installments,2026-01-06:12378.08|2026-02-05:12378.08|2026-03-07:12378.08,2026-01-03,none,Use the supplied installment schedule totaling 37134.24. The forecast reserves 14168 for Residential rent payment on 2026-03-04.
+request_232,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 873.4 for Landlord standing order on 2024-09-01.
+request_233,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 3895000 for Shared housing rent on 2026-02-02.
+request_234,432.48,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 86 for Home association fee on 2026-09-04.
+request_235,893.43,affordable_with_plan,full_payment,2024-09-06:967.2,,stop:event_21620,Pay the full request today after these permitted changes: stop:event_21620. The forecast reserves 224.4 for Residential rent payment on 2024-12-04.
+request_236,9408210.03,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 2584000 for Home repair reserve on 2025-05-02.
+request_237,23826000,affordable_now,full_payment,2026-04-05:23826000,2026-04-05,none,Pay the full request today. The forecast reserves 7695000 for Shared housing rent on 2026-07-02.
+request_238,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 205.2 for Monthly rent on 2025-03-03.
+request_239,202.55,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 321.6 for Landlord standing order on 2025-07-04.
+request_240,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 16100 for Residential rent payment on 2026-04-01.
+request_241,21052000,affordable_with_plan,installments,2024-03-17:7298026.67|2024-04-17:7298026.67|2024-05-18:7298026.67,2024-03-03,none,Use the supplied installment schedule totaling 21894080.01. The forecast reserves 7182000 for Residential rent payment on 2024-05-02.
+request_242,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 270.6 for Shared housing rent on 2025-11-03.
+request_243,17468,affordable_now,full_payment,2026-07-07:17468,2026-07-07,none,Pay the full request today. The forecast reserves 2343 for Property maintenance contribution on 2026-10-05.
+request_244,12988.52,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 18106 for Residential rent payment on 2024-09-01.
+request_245,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 35400 for Monthly rent on 2026-02-02.
+request_246,64086,affordable_with_plan,installments,2026-04-03:22216.48|2026-05-03:22216.48|2026-06-02:22216.48,2026-04-03,none,Use the supplied installment schedule totaling 66649.44. The forecast reserves 14234 for Residential rent payment on 2026-06-03.
+request_247,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 434.5 for Landlord standing order on 2024-12-04.
+request_248,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 343.2 for Apartment rent transfer on 2025-05-01.
+request_249,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 210 for Monthly rent on 2026-04-02.
+request_250,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 15158 for Landlord standing order on 2025-03-03.
+request_251,520.87,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 401.5 for Apartment rent transfer on 2025-07-04.
+request_252,8621613.16,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 1453500 for Property maintenance contribution on 2026-10-02.
+request_253,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 883.3 for Monthly rent on 2024-06-02.
+request_254,1208.68,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 244 for Property maintenance contribution on 2025-10-04.
+request_255,3345000,affordable_now,full_payment,2026-04-06:3345000,2026-04-06,none,Pay the full request today. The forecast reserves 3838000 for Residential rent payment on 2026-07-04.
+request_256,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 56600 for Monthly rent on 2024-09-01.
+request_257,733.83,affordable_later,wait,2025-11-15:1352.4,2025-11-15,none,Wait and pay the full request on 2025-11-15. The forecast reserves 540 for Apartment rent transfer on 2026-02-02.
+request_258,1113.6,affordable_now,full_payment,2026-01-07:1113.6,2026-01-07,none,Pay the full request today. The forecast reserves 242.4 for Apartment rent transfer on 2026-04-03.
+request_259,489.86,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 240.9 for Monthly rent on 2024-11-04.
+request_260,11542573.71,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 8436000 for Landlord standing order on 2025-05-01.
+request_261,1830.4,affordable_now,full_payment,2026-07-03:1830.4,2026-07-03,none,Pay the full request today. The forecast reserves 301 for Home repair reserve on 2026-09-03.
+request_262,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 13452000 for Landlord standing order on 2025-03-03.
+request_263,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 9174 for Apartment rent transfer on 2025-08-04.
+request_264,167.89,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 20400 for Apartment rent transfer on 2026-07-01.
+request_265,45970,affordable_now,full_payment,2024-03-06:45970,2024-03-06,none,Pay the full request today. The forecast reserves 83700 for Monthly rent on 2024-06-02.
+request_266,247.87,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 266.2 for Apartment rent transfer on 2025-10-03.
+request_267,646.82,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 575.3 for Landlord standing order on 2026-04-04.
+request_268,516.75,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 557.7 for Monthly rent on 2024-09-01.
+request_269,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 11484 for Shared housing rent on 2026-02-02.
+request_270,305.27,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 183 for Home association fee on 2026-10-04.
+request_271,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 27800 for Shared housing rent on 2024-11-04.
+request_272,7531524,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 836000 for Home repair reserve on 2025-05-02.
+request_273,0,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 10374000 for Apartment rent transfer on 2026-07-02.
+request_274,1878,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 576.4 for Apartment rent transfer on 2025-03-03.
+request_275,1202382.6,not_affordable,not_recommended,none,,none,Do not make this payment under the available safe plans. The forecast reserves 5225000 for Shared housing rent on 2025-08-04.
