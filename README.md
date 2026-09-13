@@ -35,10 +35,16 @@ Your solution must:
 - Generate one prediction for every request
 - Write the final predictions to `output.csv` in the repository root
 
-Run the starter Python entry point with:
+Run the Python entry point from the repository root with:
 
 ```bash
-python3 code/main.py
+python3 -m code.main
+```
+
+For a deterministic development validation run that does not contact the explanation provider, use:
+
+```bash
+python3 -m code.main --offline-explanations
 ```
 
 After running your solution, confirm that `output.csv` exists in the repository root and contains the required columns and one row for every request.
@@ -118,6 +124,65 @@ For every row in `dataset/requests.csv`, produce one row in `output.csv` with:
 You may use any language or runtime. Python, JavaScript, and TypeScript are all reasonable choices.
 
 ---
+
+## Deterministic forecast findings
+
+### Recurrence
+
+The implementation does not treat repeated descriptions as automatically recurring. Stage 1 found **25,342** financial-event rows, **6,109** repeated groups, and common adjacent intervals of **31 days (4,441)**, **30 days (2,947)**, **28 days (1,271)**, **14 days (1,049)**, **7 days (898)**, and **21 days (726)**. The reliable forecast signal is a repeated same-user obligation with a stable calendar cadence and semantic role; the supported monthly rule is a **28–31 day** cadence.
+
+The finding is traceable to these examples from `notes/data_inspection_findings.md`:
+
+- User 01 apartment rent: `event_01`, `event_07`, `event_13`, `event_19`, `event_26`, and `event_32`, with 29–31 day gaps and a stable amount.
+- User 07 monthly rent: `event_559`, `event_564`, `event_569`, `event_574`, and `event_579`, recurring on the fourth of successive months; the same user's salary rows include `event_578`, whose later settlement date demonstrates why settlement date controls cash flow.
+- User 06 family streaming: `event_444`, `event_452`, `event_460`, `event_468`, and `event_476`, recurring on the tenth and separately marked `stoppable`.
+
+Platform income is deliberately not projected from a repeated label alone: user 10 payout groups include 7-, 9-, 16-, and 17-day gaps in `event_791`/`event_799`, `event_821`/`event_829`, and `event_831`/`event_839`. Variable spending is reserved conservatively rather than extrapolated as a fixed recurrence.
+
+Linked events are treated as transaction lifecycles, not recurrence. For example, `event_100`/`event_101` is a cancelled authorization followed by a settled purchase, `event_98`/`event_99` is a debit and reversal, and `event_1855`/`event_1856` is a cash investment purchase followed by an unrealized non-cash valuation.
+
+### Currency conversion
+
+The full-dataset inspection found **140 foreign-currency event rows**, with **140/140 exact dated exchange-rate matches** and **zero gaps**. Conversion is therefore a direct lookup using `(settlement_date, from_currency, to_currency)`; the implementation does not use inverse rates, nearest dates, or cross-rate composition. Requests are already expressed in the user's home currency.
+
+Cited coverage examples from `notes/data_inspection_findings.md`:
+
+- `event_2167` (user 25), USD 1,800 settling 2023-10-15 for an IDR-home user, has an exact `(2023-10-15, USD, IDR)` row.
+- `event_15451` (user 159), a EUR event settling 2023-10-15 for a ZAR-home user, has an exact `(2023-10-15, EUR, ZAR)` row.
+- `event_21583` (user 235), a EUR event settling 2024-04-15 for a USD-home user, has an exact `(2024-04-15, EUR, USD)` row.
+- `event_3492` (user 39), a USD event settling 2025-11-15 for an INR-home user, has an exact `(2025-11-15, USD, INR)` row.
+
+## Evidence limitations and conservative handling
+
+Stage 0 recorded image ambiguities such as `event_1442`/`image_02` (total, received, and balance-due fields) and `event_1700`/`image_04` (an item bill whose visible total required manual verification). Stage 5 resolved all 16 previously blank image amounts with the Gemini vision path, and `event_1700` was manually checked against the displayed grocery line items. Text amendment extraction remains explicitly unresolved because the supplied DeepSeek credential returned HTTP 402 Payment Required; no message amendment is silently applied without a cited extraction result. The offline explanation mode is development-only and is not presented as live model usage.
+
+## Re-running, testing, and packaging
+
+From the repository root:
+
+```bash
+# deterministic full validation and output generation
+python3 -m code.main --offline-explanations
+
+# test suite
+python3 -m unittest discover -s tests -v
+
+# package the runnable code, README, and required root evaluation report
+package_root=$(pwd)
+package_dir=/tmp/buy-or-wait-package
+rm -rf "$package_dir"
+mkdir -p "$package_dir/evaluation"
+cp -a code "$package_dir/code"
+cp README.md "$package_dir/README.md"
+cp code/evaluation/usage_report.md "$package_dir/evaluation/usage_report.md"
+find "$package_dir" -type d -name __pycache__ -prune -exec rm -rf {} +
+find "$package_dir" -type f \( -name '*.pyc' -o -name '.env' -o -name '*.jsonl' \) -delete
+rm -f "$package_root/code.zip"
+(cd "$package_dir" && zip -qr "$package_root/code.zip" .)
+unzip -l "$package_root/code.zip"
+```
+
+The live command (`python3 -m code.main`) reads provider credentials from environment variables or a local `.env` file and may require funded provider accounts. Never include `.env`, credentials, cached raw evidence, or provider prompts in `code.zip`. Submit `code.zip`, the root `output.csv`, and the root `log.txt` as the chat transcript according to the contest instructions. The package contains `evaluation/usage_report.md`.
 
 ## Requirements
 
